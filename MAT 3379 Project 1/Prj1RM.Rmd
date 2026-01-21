@@ -1,0 +1,31 @@
+---
+title: "Project 1"
+author: "Philippe Deslauriers"
+date: "2026-01-21"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(rmarkdown)
+library(dplyr)
+library(ggplot2)
+```
+
+### Data
+
+
+
+### Differencing
+
+
+
+### Filtering 
+
+
+
+### Stationarity
+
+
+
+
+#### Bibliography
