@@ -1,0 +1,46 @@
+---
+title: "Project 1"
+author: "Philippe Deslauriers"
+date: "2026-01-21"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(rmarkdown)
+library(dplyr)
+library(ggplot2)
+```
+
+### Data
+```{r}
+Wind= read.csv("wind-power-production-us.csv", header = TRUE)
+Temp= read.csv("average-monthly-surface-temperature.csv", header = TRUE)
+```
+
+-Graphs and info about Temp data
+```{r}
+plot(Temp, type= "l",  col= 'orange', xlab = "Time (in months)", ylab = "Temperature (in degrees Celcius)")
+```
+
+
+
+-Graphs and Info about Wind data
+```{r}
+
+```
+
+
+### Differencing
+
+
+
+### Filtering 
+
+
+
+### Stationarity
+
+
+
+
+#### Bibliography
