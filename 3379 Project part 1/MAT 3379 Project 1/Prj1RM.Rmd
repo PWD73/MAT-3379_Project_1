@@ -17,8 +17,8 @@ library(DescTools)
 ```{r}
 Wind= read.csv("wind-power-production-us.csv", header = TRUE)
 Temp= read.csv("average-monthly-surface-temperature.csv", header = TRUE)
-WindTS= ts(data = Wind$wind_united_states, start = 1, end = 265, frequency = 1 ) #Converting the wind data to a time series
-TempTS= ts(data = Temp$Average.surface.temperature, start = 6, end = 270, frequency = 1) #Converting the temperature data to a time series
+WindTS= ts(data = Wind$wind_united_states, end = 265, frequency = 12 ) #Converting the wind data to a time series
+TempTS= ts(data = Temp$Average.surface.temperature, start = 6, frequency = 12) #Converting the temperature data to a time series
 ```
 For this project, both time series will be monthly recordings with a start date of January 2001 to January 2023.
 
@@ -52,6 +52,7 @@ The Second data set is the average surface temperature of the entire USA, measur
 
 
 ### Stationarity
+
 
 
 
